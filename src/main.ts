@@ -1,9 +1,7 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
+// import loadEnv from './loadEnv'
 
-export const gg = {
-    port: 1000
-}
-
+// loadEnv()
 createApp(App).mount('#app')

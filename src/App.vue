@@ -1,8 +1,11 @@
 <script setup lang="ts">
-console.log(import.meta.env);
+import { useEnv } from './loadEnv';
+
+const env = useEnv();
 </script>
 
 <template>
   <div>
+    <pre>{{env}}</pre>
   </div>
 </template>
